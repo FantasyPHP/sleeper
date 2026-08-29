@@ -1,21 +1,83 @@
 {
   "name": "fantasyphp/sleeper",
-  "description": "Sleeper API client for PHP.",
-  "type": "library",
+  "description": "A PHP client for the Sleeper API: leagues, rosters, drafts, players and transactions.",
   "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Fantasyphp\\Sleeper\\": "src/"
-    }
-  },
+  "keywords": [
+    "sleeper",
+    "fantasy-football",
+    "fantasy-sports",
+    "nfl",
+    "api-client",
+    "saloon"
+  ],
+  "homepage": "https://github.com/FantasyPHP/sleeper",
+  "type": "library",
   "authors": [
     {
       "name": "Joey McKenzie",
       "email": "joey.mckenzie27@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
   "require": {
-    "php": "8.5"
+    "php": "^8.5",
+    "saloonphp/saloon": "^4.0"
+  },
+  "require-dev": {
+    "ergebnis/composer-normalize": "^2.52",
+    "laravel/pint": "^1.30",
+    "phpstan/extension-installer": "^1.4",
+    "phpstan/phpstan": "^2.2",
+    "phpstan/phpstan-phpunit": "^2.0",
+    "phpstan/phpstan-strict-rules": "^2.0",
+    "rector/rector": "^2.6",
+    "tomasvotruba/type-coverage": "^2.3",
+    "phpunit/phpunit": "^13.3",
+    "deptrac/deptrac": "^4.7",
+    "infection/infection": "^0.34"
+  },
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/FantasyPHP/sleeper/issues",
+    "source": "https://github.com/FantasyPHP/sleeper"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fantasyphp\\Sleeper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Fantasyphp\\Sleeper\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true,
+      "phpstan/extension-installer": true,
+      "infection/extension-installer": true
+    }
+  },
+  "scripts": {
+    "fix": [
+      "@fmt",
+      "@refactor",
+      "@lint"
+    ],
+    "fmt": "pint --parallel",
+    "fmt:check": "pint --parallel --test",
+    "lint": "phpstan analyze --memory-limit=2G",
+    "refactor": "rector process",
+    "refactor:check": "rector process --dry-run",
+    "test": "phpunit",
+    "test:arch": "deptrac",
+    "test:record": "FANTASY_FIXTURES=record phpunit",
+    "test:mutate": "XDEBUG_MODE=coverage infection --show-mutations",
+    "fixtures:refresh": "rm -rf tests/Fixtures/Saloon && FANTASY_FIXTURES=record phpunit"
+  },
+  "scripts-descriptions": {
+    "test": "Run the suite fully offline against recorded fixtures. Fails if a fixture is missing.",
+    "test:record": "Run the suite against the live API, recording any missing fixture. Sleeper needs no credentials.",
+    "test:mutate": "Run Infection mutation testing against the offline suite.",
+    "fixtures:refresh": "Delete every recorded fixture and re-record it from the live API."
   }
 }

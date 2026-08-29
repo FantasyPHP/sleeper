@@ -1,0 +1,16 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    uses: FantasyPHP/devenv/.github/workflows/php-client.yaml@main
