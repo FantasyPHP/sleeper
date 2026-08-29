@@ -1,0 +1,21 @@
+{
+  "name": "fantasyphp/sleeper",
+  "description": "Sleeper API client for PHP.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Fantasyphp\\Sleeper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Joey McKenzie",
+      "email": "joey.mckenzie27@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "8.5"
+  }
+}
