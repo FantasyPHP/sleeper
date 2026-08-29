@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:53:59 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "ETag": "W\/\"6a4cf93669bd9d3697451ddba3cc3884\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=600, stale-while-revalidate=300, stale-if-error=600",
+        "x-request-id": "633eb0c0d2523f60d792d578d5a2b2f1",
+        "x-time": "1788022227001",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Age": "212",
+        "cf-cache-status": "HIT",
+        "Server": "cloudflare",
+        "CF-RAY": "a32d13380c9ebe08-LAX"
+    },
+    "data": "{\"1513\":{\"depth_chart_order\":null,\"birth_country\":null,\"sportradar_id\":\"436e0e45-f07a-4674-b21f-4fd8e1f24583\",\"kalshi_id\":null,\"years_exp\":9,\"first_name\":\"Ezekiel\",\"depth_chart_position\":null,\"high_school\":\"Presbyterian Boys' Secondary (GHA)\",\"practice_description\":null,\"last_name\":\"Ansah\",\"metadata\":{\"channel_id\":\"1116852742208356352\"},\"active\":true,\"college\":\"Brigham Young\",\"sport\":\"nfl\",\"injury_notes\":null,\"search_rank\":9999999,\"age\":32,\"status\":\"Inactive\",\"height\":\"77\",\"number\":94,\"birth_state\":null,\"practice_participation\":null,\"birth_date\":\"1989-05-29\",\"pandascore_id\":null,\"team_changed_at\":null,\"injury_start_date\":null,\"full_name\":\"Ezekiel Ansah\",\"hashtag\":\"#ezekielansah-NFL-FA-94\",\"search_first_name\":\"ezekiel\",\"injury_status\":null,\"fantasy_positions\":[\"DL\",\"LB\",\"LEO\"],\"birth_city\":null,\"opta_id\":null,\"player_shard\":\"5\",\"gsis_id\":\"00-0030059\",\"search_last_name\":\"ansah\",\"swish_id\":null,\"competitions\":[],\"weight\":\"275\",\"player_id\":\"1513\",\"search_full_name\":\"ezekielansah\",\"espn_id\":15785,\"injury_body_part\":null,\"position\":\"DE\",\"rotoworld_id\":8385,\"oddsjam_id\":null,\"stats_id\":558874,\"team_abbr\":null,\"yahoo_id\":26628,\"team\":null,\"fantasy_data_id\":15122,\"rotowire_id\":8657,\"news_updated\":1602383409908},\"3867\":{\"depth_chart_order\":null,\"birth_country\":null,\"sportradar_id\":\"21199f7c-91bc-4295-a6c8-bc0cfd017616\",\"kalshi_id\":null,\"years_exp\":6,\"first_name\":\"Branden\",\"depth_chart_position\":null,\"high_school\":\"McKeesport (PA)\",\"practice_description\":null,\"last_name\":\"Jackson\",\"metadata\":{\"channel_id\":\"1116852912555819008\"},\"active\":true,\"college\":\"Texas Tech\",\"sport\":\"nfl\",\"injury_notes\":null,\"search_rank\":9999999,\"age\":29,\"status\":\"Inactive\",\"height\":\"76\",\"number\":0,\"birth_state\":null,\"practice_participation\":null,\"birth_date\":\"1992-11-11\",\"pandascore_id\":null,\"team_changed_at\":null,\"injury_start_date\":null,\"full_name\":\"Branden Jackson\",\"hashtag\":\"#brandenjackson-NFL-FA-0\",\"search_first_name\":\"branden\",\"injury_status\":null,\"fantasy_positions\":[\"DL\",\"LB\",\"LEO\"],\"birth_city\":null,\"opta_id\":null,\"player_shard\":\"3\",\"gsis_id\":\"00-0033024\",\"search_last_name\":\"jackson\",\"swish_id\":null,\"competitions\":[],\"weight\":\"295\",\"player_id\":\"3867\",\"search_full_name\":\"brandenjackson\",\"espn_id\":2577642,\"injury_body_part\":null,\"position\":\"DE\",\"rotoworld_id\":null,\"oddsjam_id\":null,\"stats_id\":605326,\"team_abbr\":null,\"yahoo_id\":29999,\"team\":null,\"fantasy_data_id\":18689,\"rotowire_id\":11065,\"news_updated\":1598827860262}}",
+    "context": []
+}

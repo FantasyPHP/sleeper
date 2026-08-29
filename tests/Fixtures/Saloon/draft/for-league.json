@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:48:25 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "ETag": "W\/\"24fee6832193d3f62033c4075b3be3d9\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=120, stale-while-revalidate=300, stale-if-error=600",
+        "x-request-id": "81aef5fccfd8fdc02ab7dcaa7165be9f",
+        "x-time": "1788021827505",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Age": "277",
+        "cf-cache-status": "UPDATING",
+        "Server": "cloudflare",
+        "CF-RAY": "a32d0b0e4c982ad5-LAX"
+    },
+    "data": "[{\"created\":1554225184584,\"creators\":[\"457511950237696\",\"667279356739584\",\"61960473868124160\"],\"draft_id\":\"418854418453114880\",\"draft_order\":{\"188962928198688768\":10,\"228297280283734016\":6,\"31161755661385728\":5,\"313952381563858944\":12,\"314278749690396672\":7,\"457511950237696\":4,\"521611313037312\":3,\"61960473868124160\":9,\"667279356739584\":2,\"720638189125632\":11,\"76888557872365568\":8,\"84732593924620288\":1},\"last_message_id\":\"435956840379969536\",\"last_message_time\":1558302719734,\"last_picked\":1558302719500,\"league_id\":\"384109584450625536\",\"metadata\":{\"description\":\"\",\"name\":\"Dynasty Warriors\",\"scoring_type\":\"dynasty\"},\"season\":\"2019\",\"season_type\":\"regular\",\"settings\":{\"alpha_sort\":0,\"cpu_autopick\":0,\"pick_timer\":28800,\"player_type\":1,\"rounds\":3,\"slots_bn\":8,\"slots_def\":1,\"slots_flex\":2,\"slots_k\":1,\"slots_qb\":1,\"slots_rb\":2,\"slots_te\":1,\"slots_wr\":2,\"teams\":12},\"sport\":\"nfl\",\"start_time\":1557023400000,\"status\":\"complete\",\"type\":\"linear\"},{\"created\":1545941370645,\"creators\":[\"457511950237696\",\"667279356739584\",\"61960473868124160\"],\"draft_id\":\"384109584450625537\",\"draft_order\":{\"188962928198688768\":10,\"228297280283734016\":6,\"31161755661385728\":5,\"313952381563858944\":12,\"314278749690396672\":7,\"457511950237696\":4,\"521611313037312\":3,\"61960473868124160\":9,\"667279356739584\":2,\"720638189125632\":11,\"76888557872365568\":8,\"84732593924620288\":1},\"last_message_id\":\"431963571753066496\",\"last_message_time\":1557350650303,\"last_picked\":1557350642726,\"league_id\":\"384109584450625536\",\"metadata\":{\"description\":\"\",\"name\":\"Dynasty Warriors\",\"scoring_type\":\"dynasty\"},\"season\":\"2019\",\"season_type\":\"regular\",\"settings\":{\"alpha_sort\":0,\"cpu_autopick\":0,\"pick_timer\":28800,\"player_type\":0,\"rounds\":3,\"slots_bn\":8,\"slots_def\":1,\"slots_flex\":2,\"slots_k\":1,\"slots_qb\":1,\"slots_rb\":2,\"slots_te\":1,\"slots_wr\":2,\"teams\":12},\"sport\":\"nfl\",\"start_time\":1557345612000,\"status\":\"complete\",\"type\":\"linear\"}]",
+    "context": []
+}

@@ -1,0 +1,23 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:24:45 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "4",
+        "Connection": "keep-alive",
+        "etag": "W\/\"f7b93677fa53333d308f16d0039605fd\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900",
+        "x-request-id": "9f6a81181738215b8777d529812dd3ac",
+        "x-time": "1788019726793",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "cf-cache-status": "EXPIRED",
+        "Server": "cloudflare",
+        "CF-RAY": "a32ce865abbe2ea3-LAX"
+    },
+    "data": "null",
+    "context": []
+}

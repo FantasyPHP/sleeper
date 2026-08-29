@@ -1,0 +1,23 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:54:00 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "180",
+        "Connection": "keep-alive",
+        "ETag": "W\/\"e31ae0b9207e309feeda63b2a7310ec0\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=600, stale-while-revalidate=300, stale-if-error=600",
+        "x-request-id": "3972f1acc3e318d68b791c439adb1a2d",
+        "x-time": "1788022439945",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "cf-cache-status": "EXPIRED",
+        "Server": "cloudflare",
+        "CF-RAY": "a32d13395b5aa0c6-LAX"
+    },
+    "data": "[{\"count\":126450,\"player_id\":\"13264\"},{\"count\":97866,\"player_id\":\"11581\"},{\"count\":25758,\"player_id\":\"13533\"},{\"count\":25110,\"player_id\":\"8800\"},{\"count\":19481,\"player_id\":\"4144\"}]",
+    "context": []
+}

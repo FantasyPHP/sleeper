@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 19:00:41 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "805",
+        "Connection": "keep-alive",
+        "ETag": "W\/\"94f9f0d03b43bc63f93b40ae5f09f1a7\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=300, stale-while-revalidate=300, stale-if-error=600",
+        "x-request-id": "3d5bc3f96ecf5de39b15412fd76b5cb0",
+        "x-time": "1788029795351",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "Age": "246",
+        "cf-cache-status": "HIT",
+        "Server": "cloudflare",
+        "CF-RAY": "a32dccd05af04818-LAX"
+    },
+    "data": "[{\"avatar\":\"356484cdd408831f7f1cd131bd3094e6\",\"display_name\":\"uncledurg\",\"is_bot\":false,\"is_owner\":true,\"league_id\":\"1399461312144084992\",\"metadata\":{\"allow_pn\":\"on\",\"avatar\":\"https:\/\/sleepercdn.com\/uploads\/45754a297fc5c0d2bc881a30d41c9a38.jpg\",\"mention_pn\":\"on\",\"team_name\":\"Miller Time\"},\"settings\":null,\"user_id\":\"459794175504674816\"},{\"avatar\":\"5e50493b21d41771a1627bd9b6dc763a\",\"display_name\":\"Fueganator\",\"is_bot\":false,\"is_owner\":null,\"league_id\":\"1399461312144084992\",\"metadata\":{\"allow_pn\":\"on\",\"mention_pn\":\"on\"},\"settings\":null,\"user_id\":\"474054836061466624\"},{\"avatar\":\"44ab5961386684f4f610df34afa4cecf\",\"display_name\":\"brosepheus\",\"is_bot\":false,\"is_owner\":null,\"league_id\":\"1399461312144084992\",\"metadata\":{\"allow_pn\":\"on\",\"mention_pn\":\"on\"},\"settings\":null,\"user_id\":\"1399295919517605888\"}]",
+    "context": []
+}

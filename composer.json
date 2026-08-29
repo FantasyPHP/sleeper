@@ -33,7 +33,8 @@
     "tomasvotruba/type-coverage": "^2.3",
     "phpunit/phpunit": "^13.3",
     "deptrac/deptrac": "^4.7",
-    "infection/infection": "^0.34"
+    "infection/infection": "^0.34",
+    "vlucas/phpdotenv": "^5.7"
   },
   "minimum-stability": "stable",
   "support": {

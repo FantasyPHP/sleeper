@@ -1,0 +1,23 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:24:45 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "404",
+        "Connection": "keep-alive",
+        "etag": "W\/\"e463080bc0e150d442a578b7b1a39453\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900",
+        "x-request-id": "b42d6ef644d5cb22ed70814cc2f4f8ac",
+        "x-time": "1785816466920",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "cf-cache-status": "EXPIRED",
+        "Server": "cloudflare",
+        "CF-RAY": "a32ce862da5e892f-LAX"
+    },
+    "data": "{\"avatar\":\"sleeperbot_black.png\",\"cookies\":null,\"created\":null,\"currencies\":null,\"data_updated\":null,\"deleted\":null,\"display_name\":\"SleeperBot\",\"email\":null,\"is_bot\":true,\"metadata\":null,\"notifications\":null,\"pending\":null,\"phone\":null,\"real_name\":null,\"solicitable\":null,\"summoner_name\":null,\"summoner_region\":null,\"token\":null,\"user_id\":\"160004000000400000\",\"username\":\"sleeperbot\",\"verification\":null}",
+    "context": []
+}

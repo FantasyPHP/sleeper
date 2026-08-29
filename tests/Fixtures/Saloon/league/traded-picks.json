@@ -1,0 +1,23 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:36:21 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "309",
+        "Connection": "keep-alive",
+        "etag": "W\/\"c4ccd638ab57471430569cad758189aa\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=300, stale-while-revalidate=300, stale-if-error=600",
+        "x-request-id": "0576ca1849ad43d72321a03595f93653",
+        "x-time": "1787688795836",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "cf-cache-status": "EXPIRED",
+        "Server": "cloudflare",
+        "CF-RAY": "a32cf963ef1af3c5-LAX"
+    },
+    "data": "[{\"round\":6,\"season\":\"2018\",\"roster_id\":2,\"owner_id\":3,\"previous_owner_id\":2},{\"round\":7,\"season\":\"2018\",\"roster_id\":2,\"owner_id\":3,\"previous_owner_id\":2},{\"round\":6,\"season\":\"2018\",\"roster_id\":3,\"owner_id\":2,\"previous_owner_id\":3},{\"round\":7,\"season\":\"2018\",\"roster_id\":3,\"owner_id\":2,\"previous_owner_id\":3}]",
+    "context": []
+}

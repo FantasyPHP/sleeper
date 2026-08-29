@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:21:01 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "397",
+        "Connection": "keep-alive",
+        "etag": "W\/\"ef32ac4607aa177c2bec114b8203f1e7\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=60, stale-while-revalidate=180, stale-if-error=600",
+        "x-request-id": "70a6835ebff5b4d3c86167b5dc076665",
+        "x-time": "1787789504999",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "Age": "94",
+        "cf-cache-status": "UPDATING",
+        "Server": "cloudflare",
+        "CF-RAY": "a32ce2e98c1ce538-LAX"
+    },
+    "data": "{\"week\":1,\"leg\":1,\"season_type\":\"off\",\"season\":\"2022-summer\",\"league_season\":\"2023-summer\",\"previous_season\":\"2022-spring\",\"season_start_date\":null,\"display_week\":1,\"league_create_season\":\"2023-summer\",\"previous_season_start_date\":\"2020-06-12\",\"promo_end_date\":\"2021-02-06T08:00:00.000Z\",\"promo_start_date\":\"2021-01-13T20:00:00.000Z\",\"promo_types\":[\"slider\",\"left_panel\"],\"season_has_scores\":true}",
+    "context": []
+}

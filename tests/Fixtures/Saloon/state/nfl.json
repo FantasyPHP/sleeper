@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:21:00 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "207",
+        "Connection": "keep-alive",
+        "etag": "W\/\"6616385d480e13c35a03c99851e321ed\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=60, stale-while-revalidate=180, stale-if-error=600",
+        "x-request-id": "b89b92c3104451d19a292c8fab5f67c9",
+        "x-time": "1787544134766",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "Age": "38",
+        "cf-cache-status": "HIT",
+        "Server": "cloudflare",
+        "CF-RAY": "a32ce2e8c988b7fd-LAX"
+    },
+    "data": "{\"week\":3,\"leg\":0,\"season\":\"2026\",\"season_type\":\"pre\",\"league_season\":\"2026\",\"previous_season\":\"2025\",\"season_start_date\":\"2026-08-06\",\"display_week\":3,\"league_create_season\":\"2026\",\"season_has_scores\":true}",
+    "context": []
+}

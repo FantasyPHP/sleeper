@@ -19,9 +19,6 @@ return static function (DeptracConfig $config): void {
             $requests = Layer::withName('requests')->collectors(
                 DirectoryConfig::create('Requests'),
             ),
-            $envelopes = Layer::withName('data.envelopes')->collectors(
-                DirectoryConfig::create('Data/Envelopes'),
-            ),
             $apiData = Layer::withName('data.api')->collectors(
                 DirectoryConfig::create('Data/Api'),
             ),
@@ -40,10 +37,13 @@ return static function (DeptracConfig $config): void {
         )
         ->rulesets(
             Ruleset::forLayer($connector)->accesses(
-                $requests, $envelopes, $apiData, $contracts, $infrastructure, $enums, $exceptions,
+                $requests, $apiData, $contracts, $infrastructure, $enums, $exceptions,
             ),
-            Ruleset::forLayer($requests)->accesses($envelopes, $enums, $exceptions),
-            Ruleset::forLayer($envelopes)->accesses($apiData, $infrastructure, $enums, $exceptions),
+            // Sleeper has no envelopes, so a request hydrates its DTO straight
+            // out of the payload readers instead of handing a whole Response to
+            // a wrapper type. That is the layer fantasypros has here and this
+            // one does not; the direction of the arrows is unchanged.
+            Ruleset::forLayer($requests)->accesses($apiData, $contracts, $infrastructure, $enums, $exceptions),
             Ruleset::forLayer($apiData)->accesses($contracts, $infrastructure, $enums, $exceptions),
             Ruleset::forLayer($contracts)->accesses($infrastructure),
             Ruleset::forLayer($infrastructure)->accesses($exceptions),

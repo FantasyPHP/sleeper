@@ -1,0 +1,23 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 19:00:41 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "961",
+        "Connection": "keep-alive",
+        "ETag": "W\/\"a751f40b8816ad5dfde735ee4a219817\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=30, stale-while-revalidate=300, stale-if-error=600",
+        "x-request-id": "20cab75aa9ec5b18d199de52d36e95ce",
+        "x-time": "1788030041342",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "cf-cache-status": "MISS",
+        "Server": "cloudflare",
+        "CF-RAY": "a32dccce19d3c8c1-LAX"
+    },
+    "data": "{\"created\":1788020087148,\"creators\":[\"459794175504674816\"],\"draft_id\":\"1399461313431785472\",\"draft_order\":null,\"last_message_id\":\"1399461313431785472\",\"last_message_time\":1788020087148,\"last_picked\":null,\"league_id\":\"1399461312144084992\",\"metadata\":{\"description\":\"\",\"league_type\":\"0\",\"name\":\"Joe\u2019s New Endeavor\",\"scoring_type\":\"half_ppr\",\"show_team_names\":\"1\"},\"season\":\"2026\",\"season_type\":\"regular\",\"settings\":{\"alpha_sort\":0,\"autopause_enabled\":0,\"autopause_end_time\":1020,\"autopause_start_time\":300,\"autostart\":0,\"budget\":200,\"cpu_autopick\":1,\"enforce_position_limits\":1,\"nomination_timer\":60,\"pick_timer\":120,\"player_type\":0,\"reversal_round\":0,\"rounds\":15,\"slots_bn\":5,\"slots_def\":1,\"slots_flex\":2,\"slots_k\":1,\"slots_qb\":1,\"slots_rb\":2,\"slots_te\":1,\"slots_wr\":2,\"teams\":12},\"slot_to_roster_id\":{\"1\":1,\"10\":10,\"11\":11,\"12\":12,\"2\":2,\"3\":3,\"4\":4,\"5\":5,\"6\":6,\"7\":7,\"8\":8,\"9\":9},\"sport\":\"nfl\",\"start_time\":1788793235000,\"status\":\"pre_draft\",\"type\":\"auction\"}",
+    "context": []
+}

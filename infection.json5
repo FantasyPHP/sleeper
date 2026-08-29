@@ -9,7 +9,15 @@
         "text": "infection.log"
     },
     "mutators": {
-        "@default": true
+        "@default": true,
+        // Dropping the (float) cast is unobservable: PHP widens int to float on
+        // return even under strict_types, so a method declared ": ?float"
+        // returns the identical value with or without it. The cast is there for
+        // PHPStan and for the reader, not for the runtime. Proven by removing
+        // it and watching every nullableFloat assertion still pass.
+        "CastFloat": {
+            "ignore": ["Fantasyphp\\Sleeper\\Data\\Infrastructure\\Payload::nullableFloat"]
+        }
     },
     "timeout": 5,
     "threads": "max",

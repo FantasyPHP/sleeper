@@ -1,0 +1,23 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:36:21 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "447",
+        "Connection": "keep-alive",
+        "etag": "W\/\"9f039a1c2c247f1821fde69bd88338c8\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=300, stale-while-revalidate=300, stale-if-error=600",
+        "x-request-id": "c6f96840a5099e39c17eec39e2c59470",
+        "x-time": "1787045350384",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Accept-Ranges": "bytes",
+        "cf-cache-status": "EXPIRED",
+        "Server": "cloudflare",
+        "CF-RAY": "a32cf95ecded69a4-LAX"
+    },
+    "data": "[{\"m\":1,\"r\":1,\"l\":5,\"w\":1,\"t1\":5,\"t2\":1},{\"m\":2,\"r\":1,\"l\":10,\"w\":2,\"t1\":2,\"t2\":10},{\"m\":3,\"r\":2,\"l\":1,\"w\":6,\"t1\":6,\"t2\":1,\"t2_from\":{\"w\":1}},{\"m\":4,\"r\":2,\"l\":2,\"w\":3,\"t1\":3,\"t2\":2,\"t2_from\":{\"w\":2}},{\"m\":5,\"p\":5,\"r\":2,\"l\":5,\"w\":10,\"t1\":5,\"t2\":10,\"t2_from\":{\"l\":2},\"t1_from\":{\"l\":1}},{\"m\":6,\"p\":1,\"r\":3,\"l\":3,\"w\":6,\"t1\":6,\"t2\":3,\"t2_from\":{\"w\":4},\"t1_from\":{\"w\":3}},{\"m\":7,\"p\":3,\"r\":3,\"l\":2,\"w\":1,\"t1\":1,\"t2\":2,\"t2_from\":{\"l\":4},\"t1_from\":{\"l\":3}}]",
+    "context": []
+}

@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 29 Aug 2026 16:48:25 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "ETag": "W\/\"c36777a29d216d598ddb5f010eb97e9a\"",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "etag,date",
+        "cache-control": "public, s-maxage=259200, stale-while-revalidate=300",
+        "x-request-id": "5a8d9802131fe7b318e6025a76e9edf0",
+        "x-time": "1788021827960",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Age": "277",
+        "cf-cache-status": "HIT",
+        "Server": "cloudflare",
+        "CF-RAY": "a32d0b0ccc5869c8-LAX"
+    },
+    "data": "[{\"round\":1,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":1,\"owner_id\":11,\"previous_owner_id\":1},{\"round\":2,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":1,\"owner_id\":4,\"previous_owner_id\":1},{\"round\":3,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":3,\"owner_id\":4,\"previous_owner_id\":5},{\"round\":1,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":4,\"owner_id\":1,\"previous_owner_id\":4},{\"round\":2,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":4,\"owner_id\":9,\"previous_owner_id\":4},{\"round\":3,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":4,\"owner_id\":5,\"previous_owner_id\":4},{\"round\":1,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":5,\"owner_id\":4,\"previous_owner_id\":5},{\"round\":2,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":6,\"owner_id\":11,\"previous_owner_id\":6},{\"round\":2,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":7,\"owner_id\":11,\"previous_owner_id\":7},{\"round\":2,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":9,\"owner_id\":4,\"previous_owner_id\":9},{\"round\":1,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":11,\"owner_id\":1,\"previous_owner_id\":11},{\"round\":3,\"season\":\"2019\",\"draft_id\":418854418453114880,\"roster_id\":11,\"owner_id\":7,\"previous_owner_id\":11}]",
+    "context": []
+}
